@@ -1,0 +1,148 @@
+var friendArray = [
+{
+    "name":"Ahmed",
+    "photo":"../images/StockSnap_guyInSuit.jpg",
+    "scores":[
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+},
+{
+    "name":"Jamal",
+    "photo":"../images/StockSnap_guyFadedBack.jpg",
+    "scores":[
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+},
+{
+    "name":"Jimmie",
+    "photo":"../images/StockSnap_guyOnStreet.jpg",
+    "scores":[
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+},
+{
+    "name":"Brian",
+    "photo":"../images/StockSnap_guyStripedShirt.jpg",
+    "scores":[
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+},
+{
+    "name":"Arikka",
+    "photo":"../images/StockSnap_girlAfro.jpg",
+    "scores":[
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+},
+{
+    "name":"Nyilah",
+    "photo":"../images/StockSnap_girlLaughing.jpg",
+    "scores":[
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+},
+{
+    "name":"Jelani",
+    "photo":"../images/StockSnap_girlPhone.jpg",
+    "scores":[
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5
+      ]
+},
+{
+    "name":"Imani",
+    "photo":"../images/StockSnap_girlRedShirt.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        3,
+        3,
+        2,
+        2,
+        1,
+        4,
+        3
+      ]
+},
+{
+    "name":"Nikki",
+    "photo":"../images/StockSnap_girlSunglasses.jpg",
+    "scores":[
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+}
+];
+
+module.exports = friendArray;
