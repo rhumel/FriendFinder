@@ -18,9 +18,9 @@ app.post("/api/friends", function(req,res){
     
     // Loop through possible friends
     for (var i= 0; i < friendData.length; i++){
-        
-        for(var j = 0; j < newFriendScores.length; j++){
+            for(var j = 0; j < newFriendScores.length; j++){
             // loop through the array scores 
+            
             scoreTotal += (Math.abs(parseInt(friendData[i].scores[j])) - parseInt(newFriendScores[j]));
            
         }
@@ -30,7 +30,9 @@ app.post("/api/friends", function(req,res){
         if (matchTotal>= scoreTotal) {
             matchTotal = scoreTotal;
             matchIndex = i;
-        }   
+        } 
+        
+        
     }
         // Send matched friend back 
        friendMatch =  friendData[matchIndex];

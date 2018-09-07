@@ -1,7 +1,7 @@
 var friendArray = [
 {
     "name":"Ahmed",
-    "photo":"../images/StockSnap_guyInSuit.jpg",
+    "photo":"/images/StockSnap_guyInSuit.jpg",
     "scores":[
         1,
         1,
@@ -17,7 +17,7 @@ var friendArray = [
 },
 {
     "name":"Jamal",
-    "photo":"../images/StockSnap_guyFadedBack.jpg",
+    "photo":"/images/StockSnap_guyFadedBack.jpg",
     "scores":[
         2,
         2,
@@ -33,7 +33,7 @@ var friendArray = [
 },
 {
     "name":"Jimmie",
-    "photo":"../images/StockSnap_guyOnStreet.jpg",
+    "photo":"/images/StockSnap_guyOnStreet.jpg",
     "scores":[
         3,
         3,
@@ -49,7 +49,7 @@ var friendArray = [
 },
 {
     "name":"Brian",
-    "photo":"../images/StockSnap_guyStripedShirt.jpg",
+    "photo":"/images/StockSnap_guyStripedShirt.jpg",
     "scores":[
         4,
         4,
@@ -65,7 +65,7 @@ var friendArray = [
 },
 {
     "name":"Arikka",
-    "photo":"../images/StockSnap_girlAfro.jpg",
+    "photo":"/images/StockSnap_girlAfro.jpg",
     "scores":[
         5,
         5,
@@ -81,7 +81,7 @@ var friendArray = [
 },
 {
     "name":"Nyilah",
-    "photo":"../images/StockSnap_girlLaughing.jpg",
+    "photo":"/images/StockSnap_girlLaughing.jpg",
     "scores":[
         5,
         5,
@@ -97,7 +97,7 @@ var friendArray = [
 },
 {
     "name":"Jelani",
-    "photo":"../images/StockSnap_girlPhone.jpg",
+    "photo":"/images/StockSnap_girlPhone.jpg",
     "scores":[
         1,
         1,
@@ -113,7 +113,7 @@ var friendArray = [
 },
 {
     "name":"Imani",
-    "photo":"../images/StockSnap_girlRedShirt.jpg",
+    "photo":"/images/StockSnap_girlRedShirt.jpg",
     "scores":[
         5,
         1,
@@ -129,7 +129,7 @@ var friendArray = [
 },
 {
     "name":"Nikki",
-    "photo":"../images/StockSnap_girlSunglasses.jpg",
+    "photo":"/images/StockSnap_girlSunglasses.jpg",
     "scores":[
         1,
         2,
