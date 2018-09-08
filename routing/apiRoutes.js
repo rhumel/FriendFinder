@@ -15,21 +15,33 @@ app.post("/api/friends", function(req,res){
     var matchTotal =0;
     var scoreTotal=0;
     var friendMatch;
+    var addTotal;
     
     // Loop through possible friends
     for (var i= 0; i < friendData.length; i++){
+        scoreTotal=0;
+        console.log(scoreTotal);
+        console.log(friendData[i].name);
             for(var j = 0; j < newFriendScores.length; j++){
             // loop through the array scores 
             
-            scoreTotal += (Math.abs(parseInt(friendData[i].scores[j])) - parseInt(newFriendScores[j]));
+            addTotal = (parseInt(friendData[i].scores[j])) - parseInt(newFriendScores[j]);
+            scoreTotal += Math.abs(addTotal);    
            
+            console.log(scoreTotal + " score total In loop " +j);
+            
         }
         // check to see if the next friend score is the lowest/closest.
         // if yes, that means this record is a closer match.
         // save the index of current friend
-        if (matchTotal>= scoreTotal) {
+       
+        if (matchTotal>=scoreTotal) {
+            console.log(matchTotal +" this is Match total");
+            console.log(scoreTotal + " the score total");
             matchTotal = scoreTotal;
             matchIndex = i;
+            console.log(matchIndex + "match Index");
+            // scoreTotal = 0;
         } 
         
         
